@@ -1,0 +1,68 @@
+/* PRIMARY COLOR */
+a, .custom-primary, .navbar .menu-item .submenu .menu-item a:hover,
+.header-controls-inner li:hover i, .header-controls-inner li.cart-dropdown-wrapper.open i,
+.search-form-wrapper .search-btn:hover, .main-header.header-2 .navbar .menu-item .submenu .menu-item a:hover,
+.top-header .top-header-inner .social-media li a:hover, .top-header-nav li a:hover,
+.main-aside ul .menu-item a:hover, .main-aside ul .menu-item a.active, .ct-footer a:hover,
+.footer-widget ul li a::before, .breadcrumb li a:hover, .ct-category .ct-category-icon,
+.ct-category span, .cta-item.item-2 .cta-item-inner span, .ct-info-box .ct-info-box-icon i,
+.pagination .page-item .page-link:hover,
+.pagination .page-item .page-link:focus, .accordion .card-header[aria-expanded="true"] i,
+.filter-wrapper .view-toggler i:not(.active):hover, .product-meta li a:hover, .cart-product-wrapper h6 a:hover{
+  color: #85B72C;
+}
+blockquote{
+  border-left-color: #85B72C;
+}
+.custom-radio .custom-control-input:checked ~ .custom-control-label::before,
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before,
+.btn-custom, .btn-custom.primary, .badge.badge-primary, .nav-link.active, .aside-toggler:hover span,
+.navbar .menu-item a::before, .header-controls-inner li.cart-dropdown-wrapper i::after,
+.footer-widget ul.social-media li a:hover, .banner .slick-arrow::after,
+.banner .slick-arrow:hover, .ct-preloader, .ct-category:hover .ct-category-icon,
+.about-author .social-media li a:hover, .social-media a:hover,
+.single-post-2 .about-author .social-media li a:hover, .recipe-difficulty-inner span.active,
+.slick-dots li.slick-active button, .ct-arrows .slick-arrow::after, .ct-arrows .slick-arrow:hover,
+.pagination .page-item.active .page-link, .ct-slider-arrows, .filter-wrapper .view-toggler i.active {
+  background-color: #85B72C;
+}
+.footer-widget ul.social-media li a:hover, .banner .slick-arrow:hover, .social-media a:hover,
+.ct-arrows .slick-arrow:hover{
+  border-color: #85B72C;
+}
+blockquote, blockquote p{
+  font-family: "Merriweather", sans-serif;
+}
+
+/* PRIMARY HOVER COLOR */
+a:hover,
+a:focus,
+.btn-link:hover,
+.btn-link:focus,
+.reply-link:hover{
+  color: #729E25;
+}
+.btn-custom::before{
+  background-color: #729E25;
+}
+
+/* PRIMARY LOW HUE COLOR */
+.ct-info-box .ct-info-box-icon i, .ct-category span, .cta-item.item-2 .cta-item-inner span{
+  background-color: #dde6ce;
+}
+
+/* SECONDARY COLOR */
+.cta-item-inner span, .ct-product-body .product-title a:hover,
+.post-categories a, .post .post-title a:hover, .sidebar-widget .media h6 a:hover,
+.recipe .recipe-title a:hover, .video-player-trigger a, .custom-secondary,
+.cart-item-body a:hover, .recipe.featured-recipe .recipe-title a:hover{
+  color: #ff6767;
+}
+.post-categories a:hover, .btn-custom.secondary{
+  background-color: #ff6767;
+}
+
+/* SECONDARY LOW HUE COLOR */
+.post-categories a, .cta-item-inner span{
+  background-color: #ffdbdb;
+}

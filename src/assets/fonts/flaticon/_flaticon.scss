@@ -1,0 +1,122 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 25/01/2020 14:16
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-qr-code:before { content: "\f100"; }
+.flaticon-clean:before { content: "\f101"; }
+.flaticon-analysis:before { content: "\f102"; }
+.flaticon-analytics:before { content: "\f103"; }
+.flaticon-joomla-logo:before { content: "\f104"; }
+.flaticon-file:before { content: "\f105"; }
+.flaticon-file-1:before { content: "\f106"; }
+.flaticon-left-quote:before { content: "\f107"; }
+.flaticon-paper-plane:before { content: "\f108"; }
+.flaticon-requirement:before { content: "\f109"; }
+.flaticon-search:before { content: "\f10a"; }
+.flaticon-creativity:before { content: "\f10b"; }
+.flaticon-web-programming:before { content: "\f10c"; }
+.flaticon-medal:before { content: "\f10d"; }
+.flaticon-directory:before { content: "\f10e"; }
+.flaticon-value:before { content: "\f10f"; }
+.flaticon-appointment:before { content: "\f110"; }
+.flaticon-question:before { content: "\f111"; }
+.flaticon-candidate:before { content: "\f112"; }
+.flaticon-location:before { content: "\f113"; }
+.flaticon-suitcase:before { content: "\f114"; }
+.flaticon-salesman:before { content: "\f115"; }
+.flaticon-chef:before { content: "\f116"; }
+.flaticon-target:before { content: "\f117"; }
+.flaticon-public-relations:before { content: "\f118"; }
+.flaticon-diet:before { content: "\f119"; }
+.flaticon-shopping-bag:before { content: "\f11a"; }
+.flaticon-magnifying-glass:before { content: "\f11b"; }
+.flaticon-shopping-basket:before { content: "\f11c"; }
+.flaticon-bread:before { content: "\f11d"; }
+.flaticon-taco:before { content: "\f11e"; }
+.flaticon-pot:before { content: "\f11f"; }
+.flaticon-diet-1:before { content: "\f120"; }
+.flaticon-dairy-products:before { content: "\f121"; }
+.flaticon-pancakes:before { content: "\f122"; }
+.flaticon-croissant:before { content: "\f123"; }
+.flaticon-pudding:before { content: "\f124"; }
+.flaticon-pizza:before { content: "\f125"; }
+.flaticon-call:before { content: "\f126"; }
+.flaticon-location-1:before { content: "\f127"; }
+.flaticon-email:before { content: "\f128"; }
+    
+    $font-Flaticon-qr-code: "\f100";
+    $font-Flaticon-clean: "\f101";
+    $font-Flaticon-analysis: "\f102";
+    $font-Flaticon-analytics: "\f103";
+    $font-Flaticon-joomla-logo: "\f104";
+    $font-Flaticon-file: "\f105";
+    $font-Flaticon-file-1: "\f106";
+    $font-Flaticon-left-quote: "\f107";
+    $font-Flaticon-paper-plane: "\f108";
+    $font-Flaticon-requirement: "\f109";
+    $font-Flaticon-search: "\f10a";
+    $font-Flaticon-creativity: "\f10b";
+    $font-Flaticon-web-programming: "\f10c";
+    $font-Flaticon-medal: "\f10d";
+    $font-Flaticon-directory: "\f10e";
+    $font-Flaticon-value: "\f10f";
+    $font-Flaticon-appointment: "\f110";
+    $font-Flaticon-question: "\f111";
+    $font-Flaticon-candidate: "\f112";
+    $font-Flaticon-location: "\f113";
+    $font-Flaticon-suitcase: "\f114";
+    $font-Flaticon-salesman: "\f115";
+    $font-Flaticon-chef: "\f116";
+    $font-Flaticon-target: "\f117";
+    $font-Flaticon-public-relations: "\f118";
+    $font-Flaticon-diet: "\f119";
+    $font-Flaticon-shopping-bag: "\f11a";
+    $font-Flaticon-magnifying-glass: "\f11b";
+    $font-Flaticon-shopping-basket: "\f11c";
+    $font-Flaticon-bread: "\f11d";
+    $font-Flaticon-taco: "\f11e";
+    $font-Flaticon-pot: "\f11f";
+    $font-Flaticon-diet-1: "\f120";
+    $font-Flaticon-dairy-products: "\f121";
+    $font-Flaticon-pancakes: "\f122";
+    $font-Flaticon-croissant: "\f123";
+    $font-Flaticon-pudding: "\f124";
+    $font-Flaticon-pizza: "\f125";
+    $font-Flaticon-call: "\f126";
+    $font-Flaticon-location-1: "\f127";
+    $font-Flaticon-email: "\f128";

@@ -1,0 +1,31 @@
+
+<app-header5></app-header5>
+<!-- Login FormStart -->
+  <section class="section auth-section bg-cover" style="background-image: url('assets/img/bg/3.jpg')">
+    <div class="container">
+      <form class="auth-form light-bg" method="post" style="background-image: url('assets/img/bg/5.jpg')">
+        <h1>Login</h1>
+        <div class="form-group">
+          <label>Username</label>
+          <input type="text" class="form-control" placeholder="Username" name="username" value="">
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" class="form-control" placeholder="Password" name="password" value="">
+        </div>
+        <div class="auth-controls form-group">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="rememberMe">
+            <label class="custom-control-label fw-400" for="rememberMe">Remember Me</label>
+          </div>
+          <a routerLink="/login" class="btn-link fw-400">Forgot Password?</a>
+        </div>
+        <div class="form-group">
+          <button type="button" class="btn-custom primary btn-block">Login</button>
+        </div>
+        <p class="form-group text-center">Don't have an account? <a routerLink="/signup" class="btn-link">Create One</a> </p>
+      </form>
+    </div>
+  </section>
+  <!-- Login Form End -->
+  <app-footer4></app-footer4>

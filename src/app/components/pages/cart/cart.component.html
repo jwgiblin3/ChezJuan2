@@ -1,0 +1,149 @@
+<app-header1></app-header1>
+<!-- Subheader Start -->
+  <div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/subheader.jpg')">
+    <div class="container">
+      <div class="subheader-inner">
+        <h1>Cart</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a routerLink="/cart">Home</a></li>
+            <li class="breadcrumb-item"><a routerLink="/cart">Shop</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Cart</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- Subheader End -->
+
+  <!--Cart Start -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Cart Table Start -->
+      <table class="ct-responsive-table">
+        <thead>
+          <tr>
+            <th class="remove-item"></th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Qunantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="remove">
+              <button type="button" class="close-btn close-danger remove-from-cart">
+                <span></span>
+                <span></span>
+              </button>
+            </td>
+            <td data-title="Product">
+              <div class="cart-product-wrapper">
+                <img src="assets/img/products/1.png" alt="prod1">
+                <div class="cart-product-body">
+                  <h6> <a routerLink="/cart">Custom Branded Kettle</a> </h6>
+                  <p>Red Color</p>
+                </div>
+              </div>
+            </td>
+            <td data-title="Price">29.99$</td>
+            <td class="quantity" data-title="Quantity">
+              <input type="number" class="qty form-control" value="1">
+            </td>
+            <td data-title="Total">29.99$</td>
+          </tr>
+          <tr>
+            <td class="remove">
+              <button type="button" class="close-btn close-danger remove-from-cart">
+                <span></span>
+                <span></span>
+              </button>
+            </td>
+            <td data-title="Product">
+              <div class="cart-product-wrapper">
+                <img src="assets/img/products/2.png" alt="prod1">
+                <div class="cart-product-body">
+                  <h6> <a routerLink="/cart">Oak Wood Cutting Board</a> </h6>
+                  <p>Wood Material</p>
+                </div>
+              </div>
+            </td>
+            <td data-title="Price">29.99$</td>
+            <td class="quantity" data-title="Quantity">
+              <input type="number" class="qty form-control" value="1">
+            </td>
+            <td data-title="Total">29.99$</td>
+          </tr>
+          <tr>
+            <td class="remove">
+              <button type="button" class="close-btn close-danger remove-from-cart">
+                <span></span>
+                <span></span>
+              </button>
+            </td>
+            <td data-title="Product">
+              <div class="cart-product-wrapper">
+                <img src="assets/img/products/3.png" alt="prod1">
+                <div class="cart-product-body">
+                  <h6> <a routerLink="/cart">State of The Art Spoon</a> </h6>
+                  <p>Wood Material</p>
+                </div>
+              </div>
+            </td>
+            <td data-title="Price">29.99$</td>
+            <td class="quantity" data-title="Quantity">
+              <input type="number" class="qty form-control" value="1">
+            </td>
+            <td data-title="Total">29.99$</td>
+          </tr>
+
+        </tbody>
+      </table>
+      <!-- Cart Table End -->
+
+      <!-- Coupon Code Start -->
+      <div class="row">
+        <div class="col-lg-5">
+          <div class="form-group mb-0">
+            <div class="input-group mb-0">
+              <input type="text" class="form-control" placeholder="Enter Coupon Code" aria-label="Coupon Code">
+              <div class="input-group-append">
+                <button class="btn-custom primary" type="button">Apply</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Coupon Code End -->
+
+      <!-- Cart form Start -->
+      <div class="row ct-cart-form">
+        <div class="offset-lg-6 col-lg-6">
+          <h4>Cart Total</h4>
+          <table>
+            <tbody>
+              <tr>
+                <th>Subtotal</th>
+                <td>90.99$</td>
+              </tr>
+              <tr>
+                <th>Tax</th>
+                <td> 9.99$ <span class="small">(11%)</span> </td>
+              </tr>
+              <tr>
+                <th>Total</th>
+                <td> <b>99.99$</b> </td>
+              </tr>
+            </tbody>
+          </table>
+          <a routerLink="/checkout" class="btn-custom primary btn-block">Proceeed to Checkout</a>
+        </div>
+      </div>
+      <!-- Cart form End -->
+
+    </div>
+  </section>
+  <!-- Cart End -->
+  <app-footer1></app-footer1>

@@ -1,0 +1,33 @@
+<app-header5></app-header5>
+<!-- Login FormStart -->
+  <section class="section auth-section bg-cover" style="background-image: url('assets/img/bg/3.jpg')">
+    <div class="container">
+      <form class="auth-form light-bg" method="post" style="background-image: url('assets/img/bg/5.jpg')">
+        <h1>Sign Up</h1>
+        <div class="form-group">
+          <label>Username</label>
+          <input type="text" class="form-control" placeholder="Username" name="username" value="">
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control" placeholder="Email Address" name="email" value="">
+        </div>
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" class="form-control" placeholder="Password" name="password" value="">
+        </div>
+        <div class="auth-controls form-group">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="rememberMe">
+            <label class="custom-control-label fw-400" for="rememberMe">Agree to our <a routerLink="/signup" class="btn-link">terms & conditions</a> </label>
+          </div>
+        </div>
+        <div class="form-group">
+          <button type="button" class="btn-custom primary btn-block">Sign Up</button>
+        </div>
+        <p class="form-group text-center">Already have an account? <a routerLink="/login" class="btn-link">Login</a> </p>
+      </form>
+    </div>
+  </section>
+  <!-- Login Form End -->
+  <app-footer4></app-footer4>
