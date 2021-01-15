@@ -1,6 +1,6 @@
-<app-header1></app-header1>
+<app-header3></app-header3>
 <!-- Subheader Start -->
-<div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/img/subheader.jpg')">
+<div class="subheader bg-cover dark-overlay dark-overlay-2" style="background-image: url('assets/images/chef_bg_pages.jpg')">
   <div class="container">
     <div class="subheader-inner">
       <h1>Recipe Details</h1>
@@ -26,7 +26,7 @@
         <!-- Content Start -->
         <article class="post-single">
           <div class="post-thumbnail">
-            <img src="assets/img/blog/1.jpg" alt="post">
+            <img src="assets/images/recipes/{{recipe.images}}" alt="post">
             <div class="video-player-trigger">
               <a href="https://www.youtube.com/watch?v=TKnufs85hXk" class="popup-youtube">
                 <i class="fas fa-play"></i>
@@ -40,12 +40,12 @@
               </a>
             </div>
           </div>
-          <div class="post-categories">
-            <a routerLink="/recipe-detail">Breakfast</a>
+          <div class="post-categories" >
+            <a  *ngFor="let tag of recipe.tags" routerLink="/recipe-detail">{{tag}}</a>
           </div>
-          <h2 class="title">Puffy Pancakes Glazed With Caramel Topped With Fruits</h2>
+          <h2 class="title">{{recipe.title}}</h2>
           <div class="post-meta">
-            <ul class="list-inline list-inline-xxs offset-top-15">
+            <!--<ul class="list-inline list-inline-xxs offset-top-15">
               <li><span class="icon icon-xs mdi mdi-star text-primary text-middle"></span></li>
               <li><span class="icon icon-xs mdi mdi-star text-primary text-middle"></span></li>
               <li><span class="icon icon-xs mdi mdi-star text-primary text-middle"></span></li>
@@ -55,63 +55,25 @@
             <div class="text-primary">
               <span class="text-middle">(95 made it</span>
               <span class="text-middle text-light">&nbsp; | &nbsp;</span><span class="text-middle">54 reviews)</span>
-            </div>
+            </div>-->
             <div class="recipe-duration">
-              <span><i class="fas fa-stopwatch"></i> 50 mins</span>
+              <span><i class="fas fa-stopwatch"></i>{{recipe.time}}</span>
             </div>
           </div>
           <div class="post-content">
             <div class="recipe-ingredients">
               <h4>Ingredients</h4>
               <ul class="ct-list">
-                <li>2 cups flour (125 g)</li>
-                <li>¼ cup sugar (50 g), or sweetener of choice</li>
-                <li>4 teaspoons baking powder</li>
-                <li>¼ teaspoon baking soda</li>
-                <li>½ teaspoon salt</li>
-                <li>1 ½ cups milk (355 mL), plus more if needed</li>
-                <li>¼ cup butter (57 g), melted</li>
-                <li>2 teaspoons vanilla</li>
-                <li>1 egg</li>
-                <li>1 cup pumpkin puree (225 g)</li>
+                <li *ngFor="let ingrediant of recipe.ingrediants; let i = index;">{{ingrediant}}</li>
               </ul>
             </div>
             <div class="recipe-instructions">
               <h4>Instructions</h4>
               <ul>
-                <li>
-                  <h5>Step 1</h5>
+                <li *ngFor="let step of recipe.steps; let i = index;">
+                  <h5>Step {{i+1}}</h5>
                   <p>
-                    Combine together the flour, sugar (or sweetener), baking powder, baking soda, and salt in a
-                    large-sized bowl.
-                  </p>
-                </li>
-                <li>
-                  <h5>Step 2</h5>
-                  <p>
-                    Make a well in the centre and whisk in the milk, slightly cooled melted butter, vanilla and egg.
-                    Whisk in the pumpkin puree until smooth.
-                  </p>
-                </li>
-                <li>
-                  <h5>Step 3</h5>
-                  <p>
-                    Heat a nonstick pan or griddle over low-medium heat and wipe over with a little butter to lightly
-                    grease pan.
-                  </p>
-                </li>
-                <li>
-                  <h5>Step 4</h5>
-                  <p>
-                    Pour 1⁄4 cup of batter onto the pan and spread out gently into a round shape with the back of your
-                    ladle or measuring cup. When the underside is golden and bubbles begin to
-                    appear on the surface, flip with a spatula and cook until golden. Repeat with remaining batter.
-                  </p>
-                </li>
-                <li>
-                  <h5>Step 5</h5>
-                  <p>
-                    Serve with your choice of topping.
+                    {{step}}
                   </p>
                 </li>
               </ul>

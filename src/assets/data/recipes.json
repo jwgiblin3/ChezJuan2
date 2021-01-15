@@ -1,13 +1,33 @@
 {
  "title": "Fried Oysters",
- "description": "Pearl Oyster Bar has the best fried oysters. It is a given that we will order this when we go.",
+ "description": "Pearl Oyster Bar has the best fried oystersin the city. They use cracker meal while I use panko.  I think they taste about the same.  You can make this recipe really simple by buying tartar sauce but I always find fresh is always better than store bought.",
  "time": "20 Minutes",
  "serves": 4,
- "ingrediants": 
+ "images": "oysters.jpg",
+ "ingrediants":
+ [
+     "8 Oysters",
+     "1 part flour",
+     "1 part Pancko bread crumbs",
+
+     "Mayo",
+     "1 tspn finely cropped Capers",
+     "1 tspn finely cropped Cornichorns",
+     "1 tspn finely cropped Shallots",
+     "Lemon (To taste)",
+     "Chopped Parsley (optional)"
+ ],
+ "steps": 
  [
      "Mayo. Add a dash of lemon juice. You just want to cut the taste of the mayo. One pinch of parsley. Shuck oysters(most places will do this for you). Add tartar to the bottom of shells.",
-     "Mix 3 parts flour to 1 part cracker meal. Sauté in oil. Add a dash of salt when you remove from the pan onto a paper towel. Place on oysters and server immediately"
- ]
- ""
+     "Mix 3 parts flour to 1 part cracker meal. Sauté in oil until brown on both sides.",
+     "Remove from the pan onto a paper towel and season with salt while hot.",
+     "Add a dollap of tartar on each shell and place the oyster on top.  Serve immediately"
 
+ ],
+ "tags": 
+ [
+     "Appetizers",
+     "Restaurants"
+ ]
 }

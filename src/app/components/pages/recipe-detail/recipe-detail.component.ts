@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import * as data from '../../../../assets/data/recipes.json';
+import { RecipeDetail } from '../../models/recipe-detail';
 @Component({
   selector: 'app-recipe-detail',
   templateUrl: './recipe-detail.component.html',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RecipeDetailComponent implements OnInit {
 
-  constructor() { }
+  recipe: RecipeDetail;
+
+  constructor() {
+    this.recipe = (data as any).default as RecipeDetail;
+   }
 
   ngOnInit(): void {
   }
