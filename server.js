@@ -6,7 +6,7 @@ const app = express();
 
 const port = process.env.PORT || 8080;
 
-app.use(express.static('./dist/chezjuan'));
+app.use(express.static('./dist/cookiteer'));
 
 app.get('/*', function(req, res) {
     res.sendFile('index.html', {root: 'dist/cookiteer/'}
